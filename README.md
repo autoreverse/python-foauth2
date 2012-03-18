@@ -18,7 +18,7 @@ This is a fork of a fork of a fork. See (http://github.com/OfflineLabs/python-oa
     scope = 'https://www.googleapis.com/auth/urlshortener'
     redirect_url = 'http://localhost/'
 
-    import urlprase
+    import urlparse
     import foauth2
     client = foauth2.GooglAPI(client_id, client_secret)
     print "cut-n-paste the following URL to start the auth dance",
